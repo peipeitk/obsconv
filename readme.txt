@@ -22,7 +22,7 @@ obsconv.py使い方
 'cp':搬送波位相
 'dp':ドップラー周波数
 'EL':仰角(別途仰角ファイルが必要)
-'res':残差(別途残差ファイルが必要)
+'res':残差(別途残差ファイルが必要:https://github.com/peipeitk/rtklib2.4.3_modifyのapp/rtkpost/debug_build/rtkpost.exeからoptionのoutput solutionをlevel1にして残差ファイルを作成)
 'label':両円偏波アンテナでの信号ラベリング(1:LOS, 0:Multipath, -1:NLOS)(別途仰角ファイル、左旋偏波のobsファイル、仰角ファイルが必要)
 'week':週番号の週
 'gamma':速度の一貫性指標γ
